@@ -48,7 +48,7 @@ http://localhost:3001
 To clone the project run Git on command line:
 
 ```bash
-git clone https://github.com/antonio-rodrigues/ito.git projectname
+git clone https://github.com/antonio-rodrigues/ito.git
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
