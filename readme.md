@@ -1,4 +1,4 @@
-# ITO
+# ITO UNICENTER TNG
 
 
 This is the official repository for [ITO UNICENTER TNG](http://www.itounicentertng.pt).
@@ -21,7 +21,7 @@ To use this repo, your computer needs:
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 
-Project needs also the Foundation CLI.
+Project also needs the Foundation CLI.
 
 ### Installing the CLI
 
@@ -36,6 +36,12 @@ To run in development mode: `cd` to your project folder and to start your projec
 ```bash
 foundation watch
 ```
+
+You can adjust `BrowserSync` (auto-refresh) options accessing:
+```
+http://localhost:3001
+```
+
 
 ### Cloning the project
 
