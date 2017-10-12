@@ -1,0 +1,84 @@
+$color-white: #fff;
+$color-grey: #a3a3a3;
+$color-grey-light: #e0e0e0;
+$color-black: #000;
+$color-red: #cc4b37; // (204,75,55)
+
+// utility
+.b1 { border: 1px solid orangered; }
+.b2 { border: 1px solid lightblue; }
+.b3 { border: 1px solid limegreen; }
+.b4 { border: 1px solid lightcoral; }
+
+body {
+    overflow-x: hidden;
+    background-color: $color-grey;
+    color: $color-white;
+    background: url(../img/bg01.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    // opacity: 0.8;
+}
+
+// index.html
+.page-content {
+    min-height: 70vh;
+    color: $color-white;
+
+    &__menu {
+        margin-top: 30px;
+    }
+    &__centerfold {
+        height: 70vh;
+    }
+    &__hero {
+        min-height: calc(70vh - 80px);
+        padding: 40px;
+        text-align: center;
+
+        .contact-button {
+            margin-top: 40px;
+            padding: 20px 35px;
+            font-size: 1.1rem !important;
+        }
+        .email {
+            opacity: 0.5;
+        }
+    }
+    &__belowfold {
+        min-height: 30vh;
+        max-height: 30vh;
+
+        .cell__shade_odd {
+            background: rgba(0,0,0, 0.6)
+        }
+        .cell__shade_even {
+            background: rgba(0,0,0, 0.8)
+        }
+        .content-overlay {
+            opacity: 1;
+            z-index: 10;
+        }
+        .icon-hollow {
+            font-size: 2.8rem;
+            color: $color-white;
+        }
+    }
+}
+
+.menu .menu-link {
+    color: $color-white !important;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px solid $color-white;
+    text-align: center;
+}
+
+.reveal {
+    h1, h2, h3, h4, h5, p {
+        color: $color-black;
+    }
+}

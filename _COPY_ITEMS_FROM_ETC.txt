@@ -1,0 +1,1 @@
+After npm start build copy items from /etc/* to /dist/assets/css/*
